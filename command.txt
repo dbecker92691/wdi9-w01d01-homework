@@ -1,0 +1,51 @@
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ mkdir death_star
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd death_star/
+Daniels-MacBook-Pro:death_star danielbecker$ touch darth_vader.txt princess_leia.txt storm_trooper.txt
+Daniels-MacBook-Pro:death_star danielbecker$ cd ../..
+Daniels-MacBook-Pro:w01d01-homework danielbecker$ 
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ mkdir galaxy_far_far_away
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd galaxy_far_far_away/
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ mkdir tatooine
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ cd tatooine/
+Daniels-MacBook-Pro:tatooine danielbecker$ touch luke.txt ben_kenobi.txt
+Daniels-MacBook-Pro:tatooine danielbecker$ mkdir millenium_falcon
+Daniels-MacBook-Pro:tatooine danielbecker$ cd millenium_falcon
+Daniels-MacBook-Pro:millenium_falcon danielbecker$ touch han_solo.txt chewbaca.txt
+Daniels-MacBook-Pro:millenium_falcon danielbecker$ cd ..
+Daniels-MacBook-Pro:tatooine danielbecker$ mv ben_kenobi.txt/ obi_wan.txt
+mv: rename ben_kenobi.txt/ to obi_wan.txt:
+Daniels-MacBook-Pro:tatooine danielbecker$ cd ../..
+Daniels-MacBook-Pro:tatooine danielbecker$ mv -v luke.txt obi_wan.txt/ millenium_falcon/
+Daniels-MacBook-Pro:tatooine danielbecker$ mv millenium_falcon/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/death_star/
+Daniels-MacBook-Pro:tatooine danielbecker$ 
+Daniels-MacBook-Pro:death_star danielbecker$ cd millenium_falcon/
+Daniels-MacBook-Pro:millenium_falcon danielbecker$ cd ..
+Daniels-MacBook-Pro:death_star danielbecker$ cd ..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd galaxy_far_far_away/
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ mkdir yavin_4
+Daniels-MacBook-Pro:death_star danielbecker$ mv millenium_falcon/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/yavin_4/
+Daniels-MacBook-Pro:death_star danielbecker$ cd ..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd galaxy_far_far_away/
+Daniels-MacBook-Pro:yavin_4 danielbecker$ mkdir x_wing
+Daniels-MacBook-Pro:yavin_4 danielbecker$ cd millenium_falcon/
+Daniels-MacBook-Pro:millenium_falcon danielbecker$ mv princess_leia.txt/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/yavin_4/
+Daniels-MacBook-Pro:millenium_falcon danielbecker$ mv luke.txt/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/yavin_4/x_wing
+Daniels-MacBook-Pro:yavin_4 danielbecker$ mv millenium_falcon/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/death_star/
+Daniels-MacBook-Pro:yavin_4 danielbecker$ mv x_wing/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/death_star/
+Daniels-MacBook-Pro:yavin_4 danielbecker$ cd ../..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd death_star/
+Daniels-MacBook-Pro:death_star danielbecker$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+Daniels-MacBook-Pro:death_star danielbecker$ mv tie_fighter_1 tie_fighter_2 tie_fighter_3/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/
+Daniels-MacBook-Pro:death_star danielbecker$ cp storm_trooper.txt/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/tie_fighter_2
+Daniels-MacBook-Pro:death_star danielbecker$ cp storm_trooper.txt/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/tie_fighter_3
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ rm -r tie_fighter_2 tie_fighter_3
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ cd ..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd death_star/
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ cd ..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ cd death_star/
+Daniels-MacBook-Pro:death_star danielbecker$ cd x_wing/
+Daniels-MacBook-Pro:x_wing danielbecker$ touch the_force.txt
+Daniels-MacBook-Pro:x_wing danielbecker$ cd ..
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ cd ..
+Daniels-MacBook-Pro:wdi9-w01d01-homework danielbecker$ rm -r death_star/
+Daniels-MacBook-Pro:galaxy_far_far_away danielbecker$ mv x_wing millenium_falcon/ ~/Documents/WDI_9/Homework/w01d01-homework/wdi9-w01d01-homework/galaxy_far_far_away/yavin_4
